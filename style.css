@@ -1,0 +1,66 @@
+/* Dark background for navbar */
+.navbar {
+  background-color: #1a1a1a; /* Dark background */
+}
+
+/* Body text color */
+body {
+  color: #0a3213;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navbar links styling */
+.navbar .nav-link {
+  color: #ffffff !important; /* White text for links */
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size for navbar links */
+}
+
+/* Navbar link active, hover, and focus states */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  background-color: #28a745; /* Green background when active/hovered */
+  color: #fff !important; /* Ensure white text remains */
+  border: 2px solid #28a745; /* Green border */
+}
+
+/* Navbar Brand Styling */
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+  font-size: 24px; /* Increased font size for navbar brand */
+}
+
+/* Optional: Style the navbar-toggler icon */
+.navbar-toggler {
+  border-color: #fff;
+}
+
+/* Styling for headings */
+h5 {
+  margin-bottom: 0.2rem;
+}
+
+span {
+  display: block;
+  margin-top: 0.1rem;
+}
+
+/* Reduced space between navbar and content */
+.hero-section {
+  padding-top: 20px; /* Reduced padding from py-5 default */
+}
+
+/* Resume text color */
+.resume {
+  color: green;
+}
+
+/* Email link styling */
+.email-link {
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
