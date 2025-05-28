@@ -41,19 +41,22 @@
           <h4>YouTube Data Analytics – AWS & Tableau Powered Business Dashboard</h4>
           <ul>
             <li>
-              Built a semi-automated analytics pipeline to extract, clean, and analyze YouTube channel metrics like views, likes, comments, and duration.
+              Built a semi-automated data analytics pipeline to track and visualize YouTube channel metrics like views, likes, comments, and video durations.
             </li>
             <li>
-              Developed Python scripts to extract data using the YouTube Data API, clean it with Pandas, and securely upload it to Amazon S3.
+              Developed Python scripts to extract data via the YouTube Data API, cleaned and transformed it using Pandas, and uploaded the results to Amazon S3.
             </li>
             <li>
-              Used AWS Glue for schema creation and Amazon Athena for querying the data, managing permissions through AWS IAM.
+              Automated schema creation with AWS Glue and queried structured data using Amazon Athena; handled secure access with AWS IAM.
             </li>
             <li>
-              Connected AWS Athena to Tableau Professional (Free Trial) to build a fully interactive KPI dashboard showing channel performance and trends.
+              Connected Athena to Tableau to create an interactive business dashboard showcasing performance KPIs, engagement trends, and year-wise insights.
             </li>
             <li>
-              Published the dashboard on Tableau Public, enabling real-time insights and public sharing.
+              Published the dashboard on Tableau Public for real-time access and easy sharing with non-technical stakeholders.
+            </li>
+            <li>
+              <strong>Tools & Technologies:</strong> Python, YouTube Data API, Pandas, Amazon S3, AWS Glue, Amazon Athena, AWS IAM, Tableau Public
             </li>
           </ul>
           <div style="display: flex; gap: 10px;">
@@ -63,116 +66,107 @@
         </div>
           <!-- Project 2 -->
          <div class="project-item mt-4">
-          <h4>AgriVantage – AI-Powered Voice Assistant for Sustainable Agriculture</h4>
-          <ul>
-            <li>
-             Collaborated with a team to build a real-time, voice-interactive AI assistant designed to make agricultural knowledge accessible to users without smartphones or internet access.
-            </li>
-            <li>
-              Developed a fully asynchronous backend using FastAPI to handle dynamic, multi-turn voice conversations.
-            </li>
-            <li>
-              Integrated Twilio Voice API to enable users to access the assistant through standard phone calls.
-            </li>
-            <li>
-              Implemented a Retrieval-Augmented Generation (RAG) pipeline using LangChain and FAISS, indexing 780+ document chunks from sustainable agriculture materials to provide accurate, context-aware responses.
-            </li>
-            <li>
-              Presented at George Hacks 2025, where the project was recognized for its real-world impact potential in underserved farming communities.
-            </li>
-          </ul>
-          <a
-            href="https://github.com/skandanagowda/AgriVantage"
-            class="btn btn-success" target="_blank"
-          >
-            View Project
-          </a>
-        </div>
+            <h4>AgriVantage – AI-Powered Voice Assistant for Sustainable Agriculture</h4>
+            <ul>
+              <li>
+                Collaborated in a hackathon team to build a real-time AI voice assistant that provides agricultural knowledge to users without smartphones or internet access.
+              </li>
+              <li>
+                Engineered an asynchronous backend using FastAPI to manage multi-turn, dynamic voice conversations reliably and efficiently.
+              </li>
+              <li>
+                Integrated Twilio Voice API, enabling users to call a phone number and interact with the AI assistant via traditional voice calls.
+              </li>
+              <li>
+                Built a Retrieval-Augmented Generation (RAG) pipeline using LangChain and FAISS to index and retrieve insights from 780+ curated agriculture documents.
+              </li>
+              <li>
+                Demonstrated at George Hacks 2025, where it was recognized for addressing real-world challenges in underserved farming communities.
+              </li>
+              <li>
+                <strong>Tools & Technologies:</strong> FastAPI, Python, Twilio Voice API, LangChain, FAISS, OpenAI API, GitHub, Hackathon Deployment Stack
+              </li>
+            </ul>
+            <div style="display: flex; gap: 10px;">
+              <a href="https://github.com/skandanagowda/agrivantage" class="btn btn-success" target="_blank">View Project</a>
+            </div>
+          </div>
          <!-- Project 3 -->
-        <div class="project-item mt-4">
-          <h4>Generative Adversarial Network (GAN) for Image Generation</h4>
-          <ul>
-            <li>
-              Developed GAN with a generator and discriminator to generate
-              realistic images, focusing on enhancing the diversity and quality
-              of the generated samples.
-            </li>
-            <li>
-              Trained the GAN using binary cross-entropy loss and Adam-style
-              optimizers, ensuring efficient convergence and model stability
-              during the training process.
-            </li>
-            <li>
-              Visualized the quality improvements of generated images by
-              analyzing samples at various stages of training, helping to assess
-              the effectiveness of the model.
-            </li>
-            <li>
-              Analyzed the model’s performance, observing its ability to
-              generate a wide range of diverse and realistic images, and
-              assessed its efficiency in producing high-quality results.
-            </li>
-          </ul>
-          <a
-            href="https://github.com/skandanagowda/3D_Object_Generation_Using_GAN"
-            class="btn btn-success" target="_blank"
-          >
-            View Project
-          </a>
-        </div>
-
+          <div class="project-item mt-4">
+            <h4>3D Object Generation Using GAN</h4>
+            <ul>
+              <li>
+                Designed and trained a 3D Generative Adversarial Network (GAN) to synthesize realistic 3D objects represented as voxel grids.
+              </li>
+              <li>
+                Built a 5-layer generator and discriminator architecture using <code>ConvTranspose3D</code> and <code>Conv3D</code> layers to learn complex spatial features.
+              </li>
+              <li>
+                Trained the model using binary cross-entropy loss and the Adam optimizer, ensuring stable convergence and high-quality 3D object outputs.
+              </li>
+              <li>
+                Evaluated model performance by visualizing voxel renderings at various epochs, identifying improvements in object shape fidelity and variation.
+              </li>
+              <li>
+                Used Google Colab for training and visualization, allowing for interactive experimentation and GPU-accelerated learning.
+              </li>
+              <li>
+                <strong>Tools & Technologies:</strong> Python, PyTorch, Google Colab, Conv3D/ConvTranspose3D, Binary Cross-Entropy, Adam Optimizer, Voxel Grids, Jupyter Notebooks
+              </li>
+            </ul>
+            <div style="display: flex; gap: 10px;">
+              <a href="https://github.com/skandanagowda/3D_Object_Generation_Using_GAN" class="btn btn-success" target="_blank">View Project</a>
+            </div>
+          </div>
         <!-- Project 4 -->
         <div class="project-item mt-4">
           <h4>Toxic Comment Classification Models</h4>
           <ul>
             <li>
-              Developed and compared LSTM and Naive Bayes models to classify
-              toxic comments using Kaggle’s Toxic Comment Classification
-              dataset.
+              Built and compared LSTM and Naive Bayes models to detect toxic comments using Kaggle’s Toxic Comment Classification dataset.
             </li>
             <li>
-              Applied data preprocessing techniques, including text cleaning,
-              tokenization, and lemmatization.
+              Performed extensive NLP preprocessing, including text cleaning, tokenization, stopword removal, and lemmatization to prepare input data.
             </li>
             <li>
-              Achieved an F1-score of 0.8457 with the LSTM model and precision
-              of 0.8902 with Naive Bayes.
+              Achieved an F1-score of 0.8457 with the LSTM model and a precision of 0.8902 with the Naive Bayes classifier, highlighting trade-offs between deep learning and traditional approaches.
             </li>
             <li>
-              Provided insights into selecting models based on performance
-              needs, balancing accuracy and efficiency.
+              Conducted model evaluation and comparison to derive insights into choosing algorithms based on real-world needs such as performance, training time, and resource efficiency.
+            </li>
+            <li>
+              <strong>Tools & Technologies:</strong> Python, TensorFlow/Keras, Scikit-learn, Pandas, NLTK, Matplotlib, Jupyter Notebooks, Kaggle Dataset
             </li>
           </ul>
           <a
             href="https://github.com/skandanagowda/Comment-Toxicity-Classification-Models-A-Comparative-Analysis"
             class="btn btn-success" target="_blank"
-            >View Project</a
-          >
-        </div>
-
+          >View Project</a>
+      </div>
         <!-- Project 5 -->
-        <div class="project-item mt-4">
+       <div class="project-item mt-4">
           <h4>Smart Assistance Application to Assist Visually Impaired</h4>
           <ul>
             <li>
-              Developed an application using TensorFlow, Python, and COCO
-              datasets for real-time object detection and voice feedback.
+              Designed and implemented a real-time object detection system to aid visually impaired individuals using a combination of computer vision and audio feedback.
             </li>
             <li>
-              Integrated a machine learning model for image processing and
-              object classification, providing voice alerts based on object
-              proximity.
+              Trained and deployed a TensorFlow-based object detection model using the COCO dataset to identify everyday objects in the environment.
             </li>
             <li>
-              Published the project in IJCRT, demonstrating AI’s potential in
-              improving independent living for visually impaired individuals.
+              Integrated voice output functionality to provide spoken alerts based on object classification and proximity, enhancing situational awareness.
+            </li>
+            <li>
+              Demonstrated the solution’s practical impact by publishing it in the International Journal of Creative Research Thoughts (IJCRT).
+            </li>
+            <li>
+              <strong>Tools & Technologies:</strong> Python, TensorFlow, OpenCV, COCO Dataset, pyttsx3 (Text-to-Speech), NumPy, IJCRT Publication
             </li>
           </ul>
           <a
             href="https://github.com/skandanagowda/Smart_Assitance_Application_To_Visually_Impaired"
             class="btn btn-success" target="_blank"
-            >View Project</a
-          >
+          >View Project</a>
         </div>
       </div>
     </section>
